@@ -29,6 +29,7 @@ aside{
     height: calc(100vh - var(--navbarheight));
     background-color: rgb(214, 123, 19);
     grid-area: sidebar;
+    display: grid;
 }
 main{
     background-color: rgba(4, 248, 97, 0.986);
