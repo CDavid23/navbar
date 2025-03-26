@@ -24,7 +24,7 @@ nav{
 }
 aside{
     width: 120px;
-    top: 100px;
+    top: var(--navbarheight);
     position: sticky;
     align-self: start;
     height: calc(100vh - var(--navbarheight));
