@@ -23,6 +23,7 @@ nav{
     grid-area: navbar;
 }
 aside{
+    width: 120px;
     top: 100px;
     position: sticky;
     align-self: start;
