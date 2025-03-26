@@ -23,9 +23,9 @@ nav{
     grid-area: navbar;
 }
 aside{
-    top: 200px;
+    top: 100px;
     position: sticky;
-    /*align-self: end;*/
+    align-self: start;
     height: calc(100vh - var(--navbarheight));
     background-color: rgb(214, 123, 19);
     grid-area: sidebar;
