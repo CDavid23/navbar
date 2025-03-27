@@ -31,7 +31,7 @@ aside{
     background-color: rgb(214, 123, 19);
     grid-area: sidebar;
     disply: grid;
-    grid-template-rows:
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
     "History"
     "FamousPeople"
@@ -46,6 +46,7 @@ aside{
 }
 History{
     grid-area: History;
+    background-color: rgb(195,195,195)
 }
 main{
     background-color: rgba(4, 248, 97, 0.986);
