@@ -30,7 +30,22 @@ aside{
     height: calc(100vh - var(--navbarheight));
     background-color: rgb(214, 123, 19);
     grid-area: sidebar;
-    
+    disply: grid;
+    grid-template-rows:
+    grid-template-areas:
+    "History"
+    "FamousPeople"
+    "Population"
+    "Geography"
+    "Sport"
+    "Food"
+    "Culture"
+    "Transport"
+    "InterestingPlaces"
+    "Economy"
+}
+History{
+    grid-area: History;
 }
 main{
     background-color: rgba(4, 248, 97, 0.986);
